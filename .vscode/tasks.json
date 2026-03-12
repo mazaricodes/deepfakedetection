@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run AI Detection Hub",
+			"type": "shell",
+			"command": "/Users/hassanmazari/icat3.0/.venv/bin/python -m streamlit run main.py --server.port 8501",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
